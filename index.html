@@ -1,0 +1,16 @@
+<html>
+  <body>
+    Enter URL:
+    <br>
+    <input type="text" id="url">
+
+    <button type="button" onclick="redirect()">Redirect</button>
+
+    <script>
+      function redirect() {
+        var x = document.getElementById("url");
+        window.location.replace(x.value);
+      }
+    </script>
+  </body>
+</html>
